@@ -44,5 +44,7 @@ function playGame() {
     let computerChoice = getComputerChoice();
     console.log("Computer chose " + computerChoice)
 
-    return checkWinner(userChoice, computerChoice);
+    let winner = checkWinner(userChoice, computerChoice);
+
+    console.log(winner);
 }
