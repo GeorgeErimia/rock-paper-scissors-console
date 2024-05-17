@@ -5,9 +5,9 @@ The game will be played against the computer.
 The getComputerChoice() function returns the choice that the computer makes: 
 1. Generates a random number from 1 to 3
 2. Check the number : 
-    - If the number is 0, then the result is "Rock"
-    - If the number is 1, then the result is "Paper"
-    - If the number is 2, then the result is "Scissors"
+    - If the number is 1, then the result is "Rock"
+    - If the number is 2, then the result is "Paper"
+    - If the number is 3, then the result is "Scissors"
 
 The getUserChoice() function returns the choice that the user makes: 
 3. Await user input in the console:

@@ -13,9 +13,16 @@ body {
     align-items: center;
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
+    flex-wrap: nowrap;
 }
 div {
     margin-bottom: 50px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center
 }
 
 .option-2 {
@@ -29,4 +36,11 @@ button {
     border-radius: 10px;
     border-color: purple;
     border-style: solid;
+    margin: 10px;
+}
+
+button#btn-reset {
+    background-color: red;
+    width: 7rem;
+    height: 3rem;
 }
